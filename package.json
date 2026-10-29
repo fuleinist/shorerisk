@@ -1,0 +1,39 @@
+{
+  "name": "shorerisk",
+  "version": "0.1.0",
+  "description": "Coastal asset risk register: open shoreline change rates joined to roads, paths and buildings, with ranked exposure and costed adaptation options",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "shorerisk": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "data",
+    "web"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts",
+    "demo": "tsx src/cli.ts demo",
+    "serve": "node scripts/serve.mjs web 8080"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "coastal",
+    "erosion",
+    "climate-adaptation",
+    "asset-register",
+    "dea-coastlines",
+    "openstreetmap",
+    "councils"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
