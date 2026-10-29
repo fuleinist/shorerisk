@@ -1,4 +1,5 @@
 import { clamp, round } from './geo.js';
+import { optionsFor } from './adapt.js';
 import type {
   AssetClass,
   AssetInput,
@@ -72,7 +73,14 @@ export function rankAssets(site: SiteInput, exposures: ExposureResult[]): Ranked
     const asset = assetsById.get(exposure.assetId);
     if (!asset) continue;
     const { urgency, consequence, score } = scoreOf(asset, exposure.band);
-    rows.push({ asset, exposure, urgency, consequence, score });
+    rows.push({
+      asset,
+      exposure,
+      urgency,
+      consequence,
+      score,
+      options: optionsFor(asset.class, exposure.band),
+    });
   }
 
   rows.sort((a, b) => {

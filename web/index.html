@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>shorerisk - coastal asset risk register</title>
+<meta name="description" content="A coastal asset risk register. It joins open shoreline change rates to roads, paths and buildings, then ranks exposure and drafts adaptation options.">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="logo.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0d2231">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="./"><img src="logo.svg" alt="" width="34" height="34"><span>shorerisk</span></a>
+  <nav>
+    <a href="brief.html">Printable brief</a>
+    <a href="risk.geojson">GeoJSON</a>
+    <a href="https://github.com/fuleinist/shorerisk">Source</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <p class="kicker">Coastal asset risk register</p>
+    <h1 id="site-name">Loading the site model</h1>
+    <p class="sub" id="site-sub">This page reads model.json.</p>
+  </section>
+
+  <section id="warnings" class="warnings" hidden></section>
+  <section class="stats" id="stats"></section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Ranked assets</h2>
+      <div class="controls">
+        <label>Search
+          <input id="search" type="search" placeholder="Asset or class" autocomplete="off">
+        </label>
+        <label>Sort
+          <select id="sort">
+            <option value="score">Score</option>
+            <option value="year">Exposure year</option>
+            <option value="cost">Replacement cost</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Filter by risk band"></div>
+    <div class="table-wrap">
+      <table id="table">
+        <thead>
+          <tr>
+            <th class="num">#</th>
+            <th>Asset</th>
+            <th>Band</th>
+            <th>Exposure</th>
+            <th class="num">Score</th>
+            <th class="num">Replacement</th>
+            <th>Confidence</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+    <p class="note" id="table-note"></p>
+  </section>
+
+  <section class="panel">
+    <h2>Plan view</h2>
+    <p class="note">The dashed line is the baseline shoreline. The shaded bands are the 20, 50 and 100 year setbacks. Asset colour shows the band.</p>
+    <img class="plan" src="plan.svg" alt="Plan view of the shoreline, setback envelopes and ranked assets">
+  </section>
+
+  <section class="panel">
+    <h2>Priority interventions</h2>
+    <div class="cards" id="interventions"></div>
+  </section>
+
+  <section class="panel method">
+    <h2>Method and limits</h2>
+    <p>Each asset is matched to the nearest shoreline transect. The inland distance is measured along that transect from the baseline shoreline. The setback at a given year is the retreat rate multiplied by the number of years.</p>
+    <p><strong>Bands.</strong> A is 0 to 20 years. B is 20 to 50. C is 50 to 100. D is beyond 100 years or no retreat. The score is 0.6 times urgency plus 0.4 times consequence. Consequence combines replacement cost, daily users and criticality.</p>
+    <p><strong>Limits.</strong> The rate is historical, not a forecast. The model assumes a constant rate. Storms, wave run-up and sea level acceleration are not included. Costs are order-of-cost and need an engineer's check. This is a screening aid, not a statutory assessment.</p>
+    <p class="note" id="provenance"></p>
+  </section>
+</main>
+
+<footer>
+  <p>shorerisk v0.1. MIT licence. Shoreline rates: DEA Coastlines (CC BY 4.0). Assets: OpenStreetMap (ODbL) or a council register.</p>
+</footer>
+
+<script src="app.js" type="module"></script>
+</body>
+</html>

@@ -274,7 +274,7 @@ export function optionsFor(assetClass: AssetClass, band: Band, limit = 3): Adapt
 }
 
 export function buildIntervention(row: RankedAsset): Intervention {
-  const options = optionsFor(row.asset.class, row.exposure.band);
+  const options = row.options.length > 0 ? row.options : optionsFor(row.asset.class, row.exposure.band);
   const primary = options[0];
   return {
     asset: row.asset,

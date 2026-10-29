@@ -73,6 +73,15 @@ test('the plan escapes the site name', () => {
   assert.ok(!svg.includes('<b>'));
 });
 
+test('the plan uses only XML-safe entities', () => {
+  const svg = renderPlan(site(), buildModel(site()));
+  const entities = svg.match(/&[a-zA-Z]+;/g) ?? [];
+  const allowed = new Set(['&amp;', '&lt;', '&gt;', '&quot;', '&apos;']);
+  for (const entity of entities) {
+    assert.ok(allowed.has(entity), `unknown XML entity ${entity}`);
+  }
+});
+
 test('the GeoJSON export has one feature per asset', () => {
   const model = buildModel(site());
   const collection = toGeoJson(site(), model);

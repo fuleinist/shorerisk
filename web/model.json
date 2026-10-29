@@ -1,0 +1,1673 @@
+{
+  "siteId": "narrabeen",
+  "siteName": "Narrabeen Beach",
+  "council": "Northern Beaches Council",
+  "state": "NSW",
+  "baselineYear": 2026,
+  "horizonYears": 100,
+  "generatedAt": "2026-10-29T19:13:37.634Z",
+  "provenance": {
+    "source": "Sample data generated for this repository",
+    "dataset": "Illustrative transects and assets, not a DEA or council product",
+    "retrieved": "2026-10-30",
+    "licence": "MIT for this repository",
+    "note": "Sample only. Rates are plausible but not official DEA Coastlines values. Costs are indicative. Replace both with a DEA export and a council asset register."
+  },
+  "exposures": [
+    {
+      "assetId": "slsc",
+      "transectId": "N05",
+      "inlandDistanceM": 16,
+      "crossTrackM": 0,
+      "assignmentGrade": "high",
+      "dataGrade": "high",
+      "confidence": "high",
+      "alreadyExposed": false,
+      "exposureYearBest": 17.8,
+      "exposureYearOptimistic": 25.6,
+      "exposureYearPessimistic": 13.6,
+      "exposureDateBest": 2044,
+      "band": "A",
+      "uncertain": false,
+      "note": "N05 Surf club: retreats 0.9 m/yr. Asset is 16 m inland. Best estimate exposure in 18 years (2044)."
+    },
+    {
+      "assetId": "stairs-north",
+      "transectId": "N03",
+      "inlandDistanceM": 6.9,
+      "crossTrackM": 12,
+      "assignmentGrade": "high",
+      "dataGrade": "high",
+      "confidence": "high",
+      "alreadyExposed": false,
+      "exposureYearBest": 12,
+      "exposureYearOptimistic": 17.2,
+      "exposureYearPessimistic": 9.2,
+      "exposureDateBest": 2038,
+      "band": "A",
+      "uncertain": false,
+      "note": "N03 North access: retreats 0.58 m/yr. Asset is 7 m inland. Best estimate exposure in 12 years (2038)."
+    },
+    {
+      "assetId": "boardwalk",
+      "transectId": "N04",
+      "inlandDistanceM": 9,
+      "crossTrackM": -8,
+      "assignmentGrade": "high",
+      "dataGrade": "high",
+      "confidence": "high",
+      "alreadyExposed": false,
+      "exposureYearBest": 12.7,
+      "exposureYearOptimistic": 17.5,
+      "exposureYearPessimistic": 9.9,
+      "exposureDateBest": 2039,
+      "band": "A",
+      "uncertain": false,
+      "note": "N04 Wamberal corner: retreats 0.71 m/yr. Asset is 9 m inland. Best estimate exposure in 13 years (2039)."
+    },
+    {
+      "assetId": "outfall-north",
+      "transectId": "N02",
+      "inlandDistanceM": 7.9,
+      "crossTrackM": -4,
+      "assignmentGrade": "high",
+      "dataGrade": "high",
+      "confidence": "high",
+      "alreadyExposed": false,
+      "exposureYearBest": 17.6,
+      "exposureYearOptimistic": 27.1,
+      "exposureYearPessimistic": 13.1,
+      "exposureDateBest": 2044,
+      "band": "A",
+      "uncertain": false,
+      "note": "N02 Narrabeen SLSC: retreats 0.45 m/yr. Asset is 8 m inland. Best estimate exposure in 18 years (2044)."
+    },
+    {
+      "assetId": "ocean-street",
+      "transectId": "N06",
+      "inlandDistanceM": 34,
+      "crossTrackM": -0.1,
+      "assignmentGrade": "high",
+      "dataGrade": "high",
+      "confidence": "high",
+      "alreadyExposed": false,
+      "exposureYearBest": 54.8,
+      "exposureYearOptimistic": 76.6,
+      "exposureYearPessimistic": 42.7,
+      "exposureDateBest": 2081,
+      "band": "C",
+      "uncertain": true,
+      "note": "N06 Ocean Street: retreats 0.62 m/yr. Asset is 34 m inland. Best estimate exposure in 55 years (2081)."
+    },
+    {
+      "assetId": "park-parade",
+      "transectId": "N09",
+      "inlandDistanceM": 28,
+      "crossTrackM": 0,
+      "assignmentGrade": "high",
+      "dataGrade": "medium",
+      "confidence": "medium",
+      "alreadyExposed": false,
+      "exposureYearBest": 73.8,
+      "exposureYearOptimistic": 106.9,
+      "exposureYearPessimistic": 56.3,
+      "exposureDateBest": 2100,
+      "band": "C",
+      "uncertain": false,
+      "note": "N09 South access: retreats 0.38 m/yr. Asset is 28 m inland. Best estimate exposure in 74 years (2100)."
+    },
+    {
+      "assetId": "cycleway",
+      "transectId": "N08",
+      "inlandDistanceM": 13,
+      "crossTrackM": 0,
+      "assignmentGrade": "high",
+      "dataGrade": "high",
+      "confidence": "high",
+      "alreadyExposed": false,
+      "exposureYearBest": 23.6,
+      "exposureYearOptimistic": 33,
+      "exposureYearPessimistic": 18.4,
+      "exposureDateBest": 2050,
+      "band": "B",
+      "uncertain": true,
+      "note": "N08 Cycleway: retreats 0.55 m/yr. Asset is 13 m inland. Best estimate exposure in 24 years (2050)."
+    },
+    {
+      "assetId": "carpark-surf",
+      "transectId": "N05",
+      "inlandDistanceM": 26,
+      "crossTrackM": 18,
+      "assignmentGrade": "medium",
+      "dataGrade": "high",
+      "confidence": "medium",
+      "alreadyExposed": false,
+      "exposureYearBest": 28.9,
+      "exposureYearOptimistic": 41.6,
+      "exposureYearPessimistic": 22.2,
+      "exposureDateBest": 2055,
+      "band": "B",
+      "uncertain": false,
+      "note": "N05 Surf club: retreats 0.9 m/yr. Asset is 26 m inland. Best estimate exposure in 29 years (2055)."
+    },
+    {
+      "assetId": "toilets",
+      "transectId": "N07",
+      "inlandDistanceM": 30,
+      "crossTrackM": -6,
+      "assignmentGrade": "high",
+      "dataGrade": "medium",
+      "confidence": "medium",
+      "alreadyExposed": false,
+      "exposureYearBest": 62.6,
+      "exposureYearOptimistic": 87.6,
+      "exposureYearPessimistic": 48.7,
+      "exposureDateBest": 2089,
+      "band": "C",
+      "uncertain": true,
+      "note": "N07 Park Parade: retreats 0.48 m/yr. Asset is 30 m inland. Best estimate exposure in 63 years (2089)."
+    },
+    {
+      "assetId": "tower",
+      "transectId": "N05",
+      "inlandDistanceM": 10,
+      "crossTrackM": -22,
+      "assignmentGrade": "medium",
+      "dataGrade": "high",
+      "confidence": "medium",
+      "alreadyExposed": false,
+      "exposureYearBest": 11.1,
+      "exposureYearOptimistic": 16,
+      "exposureYearPessimistic": 8.5,
+      "exposureDateBest": 2037,
+      "band": "A",
+      "uncertain": false,
+      "note": "N05 Surf club: retreats 0.9 m/yr. Asset is 10 m inland. Best estimate exposure in 11 years (2037)."
+    },
+    {
+      "assetId": "playground",
+      "transectId": "N10",
+      "inlandDistanceM": 55,
+      "crossTrackM": 30,
+      "assignmentGrade": "medium",
+      "dataGrade": "medium",
+      "confidence": "medium",
+      "alreadyExposed": false,
+      "exposureYearBest": 220.2,
+      "exposureYearOptimistic": 362.1,
+      "exposureYearPessimistic": 158.2,
+      "exposureDateBest": 2246,
+      "band": "D",
+      "uncertain": false,
+      "note": "N10 Lagoon mouth: retreats 0.25 m/yr. Asset is 55 m inland. Best estimate exposure in 220 years (2246)."
+    },
+    {
+      "assetId": "cafe",
+      "transectId": "N11",
+      "inlandDistanceM": 40,
+      "crossTrackM": 0,
+      "assignmentGrade": "high",
+      "dataGrade": "high",
+      "confidence": "high",
+      "alreadyExposed": false,
+      "exposureYearBest": 90.8,
+      "exposureYearOptimistic": 132,
+      "exposureYearPessimistic": 69.2,
+      "exposureDateBest": 2117,
+      "band": "C",
+      "uncertain": false,
+      "note": "N11 Cafe strip: retreats 0.44 m/yr. Asset is 40 m inland. Best estimate exposure in 91 years (2117)."
+    },
+    {
+      "assetId": "pool-path",
+      "transectId": "N12",
+      "inlandDistanceM": 9,
+      "crossTrackM": 0,
+      "assignmentGrade": "high",
+      "dataGrade": "high",
+      "confidence": "high",
+      "alreadyExposed": false,
+      "exposureYearBest": 29.9,
+      "exposureYearOptimistic": 49.2,
+      "exposureYearPessimistic": 21.5,
+      "exposureDateBest": 2056,
+      "band": "B",
+      "uncertain": false,
+      "note": "N12 South end: retreats 0.3 m/yr. Asset is 9 m inland. Best estimate exposure in 30 years (2056)."
+    },
+    {
+      "assetId": "carpark-north",
+      "transectId": "N01",
+      "inlandDistanceM": 14,
+      "crossTrackM": -10.1,
+      "assignmentGrade": "high",
+      "dataGrade": "high",
+      "confidence": "high",
+      "alreadyExposed": false,
+      "exposureYearBest": 43.7,
+      "exposureYearOptimistic": 69.1,
+      "exposureYearPessimistic": 32,
+      "exposureDateBest": 2070,
+      "band": "B",
+      "uncertain": false,
+      "note": "N01 Narrabeen north: retreats 0.32 m/yr. Asset is 14 m inland. Best estimate exposure in 44 years (2070)."
+    },
+    {
+      "assetId": "outfall-south",
+      "transectId": "N10",
+      "inlandDistanceM": 4,
+      "crossTrackM": 6,
+      "assignmentGrade": "high",
+      "dataGrade": "medium",
+      "confidence": "medium",
+      "alreadyExposed": false,
+      "exposureYearBest": 16.1,
+      "exposureYearOptimistic": 26.5,
+      "exposureYearPessimistic": 11.6,
+      "exposureDateBest": 2042,
+      "band": "A",
+      "uncertain": false,
+      "note": "N10 Lagoon mouth: retreats 0.25 m/yr. Asset is 4 m inland. Best estimate exposure in 16 years (2042)."
+    },
+    {
+      "assetId": "ramp-south",
+      "transectId": "N09",
+      "inlandDistanceM": 6,
+      "crossTrackM": -14,
+      "assignmentGrade": "high",
+      "dataGrade": "medium",
+      "confidence": "medium",
+      "alreadyExposed": false,
+      "exposureYearBest": 15.8,
+      "exposureYearOptimistic": 22.9,
+      "exposureYearPessimistic": 12.1,
+      "exposureDateBest": 2042,
+      "band": "A",
+      "uncertain": false,
+      "note": "N09 South access: retreats 0.38 m/yr. Asset is 6 m inland. Best estimate exposure in 16 years (2042)."
+    }
+  ],
+  "ranked": [
+    {
+      "asset": {
+        "id": "slsc",
+        "name": "South Narrabeen Surf Life Saving Club",
+        "class": "building",
+        "position": [
+          151.298887,
+          -33.720162
+        ],
+        "replacementCostAUD": 2400000,
+        "usersPerDay": 260,
+        "criticality": "community"
+      },
+      "exposure": {
+        "assetId": "slsc",
+        "transectId": "N05",
+        "inlandDistanceM": 16,
+        "crossTrackM": 0,
+        "assignmentGrade": "high",
+        "dataGrade": "high",
+        "confidence": "high",
+        "alreadyExposed": false,
+        "exposureYearBest": 17.8,
+        "exposureYearOptimistic": 25.6,
+        "exposureYearPessimistic": 13.6,
+        "exposureDateBest": 2044,
+        "band": "A",
+        "uncertain": false,
+        "note": "N05 Surf club: retreats 0.9 m/yr. Asset is 16 m inland. Best estimate exposure in 18 years (2044)."
+      },
+      "urgency": 100,
+      "consequence": 72.3,
+      "score": 89,
+      "options": [
+        {
+          "id": "building-protect",
+          "title": "Protect the building and plan retreat",
+          "detail": "Raise and seal the ground floor, protect services, and set a trigger for a later move.",
+          "costLowAUD": 150000,
+          "costHighAUD": 600000,
+          "leadTimeYears": 2,
+          "coBenefits": [
+            "Service life extended",
+            "Wet-floor resilience"
+          ]
+        },
+        {
+          "id": "building-retreat",
+          "title": "Plan a staged retreat or land swap",
+          "detail": "Value the site, find a replacement site and agree a move date with the owner.",
+          "costLowAUD": 60000,
+          "costHighAUD": 200000,
+          "leadTimeYears": 5,
+          "coBenefits": [
+            "Avoided loss",
+            "Certainty for users"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 1
+    },
+    {
+      "asset": {
+        "id": "boardwalk",
+        "name": "Dune boardwalk",
+        "class": "path",
+        "position": [
+          151.298101,
+          -33.71818
+        ],
+        "replacementCostAUD": 160000,
+        "usersPerDay": 350,
+        "criticality": "amenity",
+        "lengthM": 300
+      },
+      "exposure": {
+        "assetId": "boardwalk",
+        "transectId": "N04",
+        "inlandDistanceM": 9,
+        "crossTrackM": -8,
+        "assignmentGrade": "high",
+        "dataGrade": "high",
+        "confidence": "high",
+        "alreadyExposed": false,
+        "exposureYearBest": 12.7,
+        "exposureYearOptimistic": 17.5,
+        "exposureYearPessimistic": 9.9,
+        "exposureDateBest": 2039,
+        "band": "A",
+        "uncertain": false,
+        "note": "N04 Wamberal corner: retreats 0.71 m/yr. Asset is 9 m inland. Best estimate exposure in 13 years (2039)."
+      },
+      "urgency": 100,
+      "consequence": 48.7,
+      "score": 79,
+      "options": [
+        {
+          "id": "path-realign",
+          "title": "Realign the path behind the dune",
+          "detail": "Move the path landward to a stable setback line. Use a permeable surface and a gentle grade.",
+          "costLowAUD": 90000,
+          "costHighAUD": 260000,
+          "leadTimeYears": 1.5,
+          "coBenefits": [
+            "Access kept open",
+            "Dune recovery"
+          ]
+        },
+        {
+          "id": "dune-restore",
+          "title": "Rebuild the dune and fence the access",
+          "detail": "Place sand fencing, plant local dune species and keep foot traffic on marked paths.",
+          "costLowAUD": 40000,
+          "costHighAUD": 150000,
+          "leadTimeYears": 1.5,
+          "coBenefits": [
+            "Habitat",
+            "Wave buffer",
+            "Lower cost than a wall"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 2
+    },
+    {
+      "asset": {
+        "id": "ramp-south",
+        "name": "Beach access ramp, south",
+        "class": "beach_access",
+        "position": [
+          151.302592,
+          -33.728362
+        ],
+        "replacementCostAUD": 120000,
+        "usersPerDay": 520,
+        "criticality": "amenity"
+      },
+      "exposure": {
+        "assetId": "ramp-south",
+        "transectId": "N09",
+        "inlandDistanceM": 6,
+        "crossTrackM": -14,
+        "assignmentGrade": "high",
+        "dataGrade": "medium",
+        "confidence": "medium",
+        "alreadyExposed": false,
+        "exposureYearBest": 15.8,
+        "exposureYearOptimistic": 22.9,
+        "exposureYearPessimistic": 12.1,
+        "exposureDateBest": 2042,
+        "band": "A",
+        "uncertain": false,
+        "note": "N09 South access: retreats 0.38 m/yr. Asset is 6 m inland. Best estimate exposure in 16 years (2042)."
+      },
+      "urgency": 100,
+      "consequence": 48,
+      "score": 79,
+      "options": [
+        {
+          "id": "access-relocate",
+          "title": "Relocate the stairs and ramp landward",
+          "detail": "Build a movable access structure at the new dune line. Keep one accessible route.",
+          "costLowAUD": 60000,
+          "costHighAUD": 180000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "Access for all",
+            "Less dune damage"
+          ]
+        },
+        {
+          "id": "dune-restore",
+          "title": "Rebuild the dune and fence the access",
+          "detail": "Place sand fencing, plant local dune species and keep foot traffic on marked paths.",
+          "costLowAUD": 40000,
+          "costHighAUD": 150000,
+          "leadTimeYears": 1.5,
+          "coBenefits": [
+            "Habitat",
+            "Wave buffer",
+            "Lower cost than a wall"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 3
+    },
+    {
+      "asset": {
+        "id": "outfall-south",
+        "name": "Stormwater outfall, south",
+        "class": "drainage",
+        "position": [
+          151.303426,
+          -33.730216
+        ],
+        "replacementCostAUD": 420000,
+        "criticality": "lifeline"
+      },
+      "exposure": {
+        "assetId": "outfall-south",
+        "transectId": "N10",
+        "inlandDistanceM": 4,
+        "crossTrackM": 6,
+        "assignmentGrade": "high",
+        "dataGrade": "medium",
+        "confidence": "medium",
+        "alreadyExposed": false,
+        "exposureYearBest": 16.1,
+        "exposureYearOptimistic": 26.5,
+        "exposureYearPessimistic": 11.6,
+        "exposureDateBest": 2042,
+        "band": "A",
+        "uncertain": false,
+        "note": "N10 Lagoon mouth: retreats 0.25 m/yr. Asset is 4 m inland. Best estimate exposure in 16 years (2042)."
+      },
+      "urgency": 100,
+      "consequence": 47.1,
+      "score": 79,
+      "options": [
+        {
+          "id": "drainage-extend",
+          "title": "Extend the outfall and fit backflow valves",
+          "detail": "Extend the pipe past the new dune toe. Fit valves so sea water cannot run back into the street.",
+          "costLowAUD": 250000,
+          "costHighAUD": 900000,
+          "leadTimeYears": 3,
+          "coBenefits": [
+            "Less street flooding",
+            "Cleaner beach water"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 4
+    },
+    {
+      "asset": {
+        "id": "tower",
+        "name": "Lifesaving observation tower",
+        "class": "building",
+        "position": [
+          151.29903,
+          -33.72033
+        ],
+        "replacementCostAUD": 140000,
+        "usersPerDay": 40,
+        "criticality": "community"
+      },
+      "exposure": {
+        "assetId": "tower",
+        "transectId": "N05",
+        "inlandDistanceM": 10,
+        "crossTrackM": -22,
+        "assignmentGrade": "medium",
+        "dataGrade": "high",
+        "confidence": "medium",
+        "alreadyExposed": false,
+        "exposureYearBest": 11.1,
+        "exposureYearOptimistic": 16,
+        "exposureYearPessimistic": 8.5,
+        "exposureDateBest": 2037,
+        "band": "A",
+        "uncertain": false,
+        "note": "N05 Surf club: retreats 0.9 m/yr. Asset is 10 m inland. Best estimate exposure in 11 years (2037)."
+      },
+      "urgency": 100,
+      "consequence": 45.2,
+      "score": 78,
+      "options": [
+        {
+          "id": "building-protect",
+          "title": "Protect the building and plan retreat",
+          "detail": "Raise and seal the ground floor, protect services, and set a trigger for a later move.",
+          "costLowAUD": 150000,
+          "costHighAUD": 600000,
+          "leadTimeYears": 2,
+          "coBenefits": [
+            "Service life extended",
+            "Wet-floor resilience"
+          ]
+        },
+        {
+          "id": "building-retreat",
+          "title": "Plan a staged retreat or land swap",
+          "detail": "Value the site, find a replacement site and agree a move date with the owner.",
+          "costLowAUD": 60000,
+          "costHighAUD": 200000,
+          "leadTimeYears": 5,
+          "coBenefits": [
+            "Avoided loss",
+            "Certainty for users"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 5
+    },
+    {
+      "asset": {
+        "id": "stairs-north",
+        "name": "Beach access stairs, north",
+        "class": "beach_access",
+        "position": [
+          151.29716,
+          -33.715976
+        ],
+        "replacementCostAUD": 85000,
+        "usersPerDay": 400,
+        "criticality": "amenity"
+      },
+      "exposure": {
+        "assetId": "stairs-north",
+        "transectId": "N03",
+        "inlandDistanceM": 6.9,
+        "crossTrackM": 12,
+        "assignmentGrade": "high",
+        "dataGrade": "high",
+        "confidence": "high",
+        "alreadyExposed": false,
+        "exposureYearBest": 12,
+        "exposureYearOptimistic": 17.2,
+        "exposureYearPessimistic": 9.2,
+        "exposureDateBest": 2038,
+        "band": "A",
+        "uncertain": false,
+        "note": "N03 North access: retreats 0.58 m/yr. Asset is 7 m inland. Best estimate exposure in 12 years (2038)."
+      },
+      "urgency": 100,
+      "consequence": 44.6,
+      "score": 78,
+      "options": [
+        {
+          "id": "access-relocate",
+          "title": "Relocate the stairs and ramp landward",
+          "detail": "Build a movable access structure at the new dune line. Keep one accessible route.",
+          "costLowAUD": 60000,
+          "costHighAUD": 180000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "Access for all",
+            "Less dune damage"
+          ]
+        },
+        {
+          "id": "dune-restore",
+          "title": "Rebuild the dune and fence the access",
+          "detail": "Place sand fencing, plant local dune species and keep foot traffic on marked paths.",
+          "costLowAUD": 40000,
+          "costHighAUD": 150000,
+          "leadTimeYears": 1.5,
+          "coBenefits": [
+            "Habitat",
+            "Wave buffer",
+            "Lower cost than a wall"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 6
+    },
+    {
+      "asset": {
+        "id": "outfall-north",
+        "name": "Stormwater outfall, north",
+        "class": "drainage",
+        "position": [
+          151.296321,
+          -33.714086
+        ],
+        "replacementCostAUD": 350000,
+        "criticality": "lifeline"
+      },
+      "exposure": {
+        "assetId": "outfall-north",
+        "transectId": "N02",
+        "inlandDistanceM": 7.9,
+        "crossTrackM": -4,
+        "assignmentGrade": "high",
+        "dataGrade": "high",
+        "confidence": "high",
+        "alreadyExposed": false,
+        "exposureYearBest": 17.6,
+        "exposureYearOptimistic": 27.1,
+        "exposureYearPessimistic": 13.1,
+        "exposureDateBest": 2044,
+        "band": "A",
+        "uncertain": false,
+        "note": "N02 Narrabeen SLSC: retreats 0.45 m/yr. Asset is 8 m inland. Best estimate exposure in 18 years (2044)."
+      },
+      "urgency": 100,
+      "consequence": 45.7,
+      "score": 78,
+      "options": [
+        {
+          "id": "drainage-extend",
+          "title": "Extend the outfall and fit backflow valves",
+          "detail": "Extend the pipe past the new dune toe. Fit valves so sea water cannot run back into the street.",
+          "costLowAUD": 250000,
+          "costHighAUD": 900000,
+          "leadTimeYears": 3,
+          "coBenefits": [
+            "Less street flooding",
+            "Cleaner beach water"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 7
+    },
+    {
+      "asset": {
+        "id": "carpark-surf",
+        "name": "Surf club car park",
+        "class": "car_park",
+        "position": [
+          151.298719,
+          -33.720041
+        ],
+        "replacementCostAUD": 750000,
+        "usersPerDay": 700,
+        "criticality": "amenity"
+      },
+      "exposure": {
+        "assetId": "carpark-surf",
+        "transectId": "N05",
+        "inlandDistanceM": 26,
+        "crossTrackM": 18,
+        "assignmentGrade": "medium",
+        "dataGrade": "high",
+        "confidence": "medium",
+        "alreadyExposed": false,
+        "exposureYearBest": 28.9,
+        "exposureYearOptimistic": 41.6,
+        "exposureYearPessimistic": 22.2,
+        "exposureDateBest": 2055,
+        "band": "B",
+        "uncertain": false,
+        "note": "N05 Surf club: retreats 0.9 m/yr. Asset is 26 m inland. Best estimate exposure in 29 years (2055)."
+      },
+      "urgency": 65,
+      "consequence": 62.3,
+      "score": 64,
+      "options": [
+        {
+          "id": "carpark-manage",
+          "title": "Cut parking and set a closure plan",
+          "detail": "Remove the seaward rows, add signs, and agree a closure trigger with the operator.",
+          "costLowAUD": 15000,
+          "costHighAUD": 50000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "Low cost",
+            "Clear rules"
+          ]
+        },
+        {
+          "id": "corridor",
+          "title": "Reserve a setback corridor in the plan",
+          "detail": "Add the corridor to the local plan so new works cannot move toward the sea.",
+          "costLowAUD": 10000,
+          "costHighAUD": 40000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "No new exposure",
+            "Clear rules for owners"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 8
+    },
+    {
+      "asset": {
+        "id": "cycleway",
+        "name": "Beachfront cycleway",
+        "class": "path",
+        "position": [
+          151.301581,
+          -33.726237
+        ],
+        "replacementCostAUD": 480000,
+        "usersPerDay": 900,
+        "criticality": "amenity",
+        "lengthM": 300
+      },
+      "exposure": {
+        "assetId": "cycleway",
+        "transectId": "N08",
+        "inlandDistanceM": 13,
+        "crossTrackM": 0,
+        "assignmentGrade": "high",
+        "dataGrade": "high",
+        "confidence": "high",
+        "alreadyExposed": false,
+        "exposureYearBest": 23.6,
+        "exposureYearOptimistic": 33,
+        "exposureYearPessimistic": 18.4,
+        "exposureDateBest": 2050,
+        "band": "B",
+        "uncertain": true,
+        "note": "N08 Cycleway: retreats 0.55 m/yr. Asset is 13 m inland. Best estimate exposure in 24 years (2050)."
+      },
+      "urgency": 65,
+      "consequence": 60,
+      "score": 63,
+      "options": [
+        {
+          "id": "path-design",
+          "title": "Design a landward realignment",
+          "detail": "Survey a new alignment and cost it. Keep the current path open until the new route is funded.",
+          "costLowAUD": 25000,
+          "costHighAUD": 70000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "Shovel-ready grant bid"
+          ]
+        },
+        {
+          "id": "dune-restore",
+          "title": "Rebuild the dune and fence the access",
+          "detail": "Place sand fencing, plant local dune species and keep foot traffic on marked paths.",
+          "costLowAUD": 40000,
+          "costHighAUD": 150000,
+          "leadTimeYears": 1.5,
+          "coBenefits": [
+            "Habitat",
+            "Wave buffer",
+            "Lower cost than a wall"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 9
+    },
+    {
+      "asset": {
+        "id": "carpark-north",
+        "name": "North car park",
+        "class": "car_park",
+        "position": [
+          151.295395,
+          -33.712128
+        ],
+        "replacementCostAUD": 520000,
+        "usersPerDay": 380,
+        "criticality": "amenity"
+      },
+      "exposure": {
+        "assetId": "carpark-north",
+        "transectId": "N01",
+        "inlandDistanceM": 14,
+        "crossTrackM": -10.1,
+        "assignmentGrade": "high",
+        "dataGrade": "high",
+        "confidence": "high",
+        "alreadyExposed": false,
+        "exposureYearBest": 43.7,
+        "exposureYearOptimistic": 69.1,
+        "exposureYearPessimistic": 32,
+        "exposureDateBest": 2070,
+        "band": "B",
+        "uncertain": false,
+        "note": "N01 Narrabeen north: retreats 0.32 m/yr. Asset is 14 m inland. Best estimate exposure in 44 years (2070)."
+      },
+      "urgency": 65,
+      "consequence": 57.5,
+      "score": 62,
+      "options": [
+        {
+          "id": "carpark-manage",
+          "title": "Cut parking and set a closure plan",
+          "detail": "Remove the seaward rows, add signs, and agree a closure trigger with the operator.",
+          "costLowAUD": 15000,
+          "costHighAUD": 50000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "Low cost",
+            "Clear rules"
+          ]
+        },
+        {
+          "id": "corridor",
+          "title": "Reserve a setback corridor in the plan",
+          "detail": "Add the corridor to the local plan so new works cannot move toward the sea.",
+          "costLowAUD": 10000,
+          "costHighAUD": 40000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "No new exposure",
+            "Clear rules for owners"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 10
+    },
+    {
+      "asset": {
+        "id": "pool-path",
+        "name": "Ocean pool access path",
+        "class": "path",
+        "position": [
+          151.305173,
+          -33.734338
+        ],
+        "replacementCostAUD": 210000,
+        "usersPerDay": 300,
+        "criticality": "amenity",
+        "lengthM": 300
+      },
+      "exposure": {
+        "assetId": "pool-path",
+        "transectId": "N12",
+        "inlandDistanceM": 9,
+        "crossTrackM": 0,
+        "assignmentGrade": "high",
+        "dataGrade": "high",
+        "confidence": "high",
+        "alreadyExposed": false,
+        "exposureYearBest": 29.9,
+        "exposureYearOptimistic": 49.2,
+        "exposureYearPessimistic": 21.5,
+        "exposureDateBest": 2056,
+        "band": "B",
+        "uncertain": false,
+        "note": "N12 South end: retreats 0.3 m/yr. Asset is 9 m inland. Best estimate exposure in 30 years (2056)."
+      },
+      "urgency": 65,
+      "consequence": 50.1,
+      "score": 59,
+      "options": [
+        {
+          "id": "path-design",
+          "title": "Design a landward realignment",
+          "detail": "Survey a new alignment and cost it. Keep the current path open until the new route is funded.",
+          "costLowAUD": 25000,
+          "costHighAUD": 70000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "Shovel-ready grant bid"
+          ]
+        },
+        {
+          "id": "dune-restore",
+          "title": "Rebuild the dune and fence the access",
+          "detail": "Place sand fencing, plant local dune species and keep foot traffic on marked paths.",
+          "costLowAUD": 40000,
+          "costHighAUD": 150000,
+          "leadTimeYears": 1.5,
+          "coBenefits": [
+            "Habitat",
+            "Wave buffer",
+            "Lower cost than a wall"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 11
+    },
+    {
+      "asset": {
+        "id": "park-parade",
+        "name": "Narrabeen Park Parade",
+        "class": "road",
+        "position": [
+          151.302316,
+          -33.728311
+        ],
+        "replacementCostAUD": 3100000,
+        "usersPerDay": 4100,
+        "criticality": "lifeline",
+        "lengthM": 900
+      },
+      "exposure": {
+        "assetId": "park-parade",
+        "transectId": "N09",
+        "inlandDistanceM": 28,
+        "crossTrackM": 0,
+        "assignmentGrade": "high",
+        "dataGrade": "medium",
+        "confidence": "medium",
+        "alreadyExposed": false,
+        "exposureYearBest": 73.8,
+        "exposureYearOptimistic": 106.9,
+        "exposureYearPessimistic": 56.3,
+        "exposureDateBest": 2100,
+        "band": "C",
+        "uncertain": false,
+        "note": "N09 South access: retreats 0.38 m/yr. Asset is 28 m inland. Best estimate exposure in 74 years (2100)."
+      },
+      "urgency": 35,
+      "consequence": 90.8,
+      "score": 57,
+      "options": [
+        {
+          "id": "road-access",
+          "title": "Keep emergency access and set closure triggers",
+          "detail": "Agree a rainfall and wave trigger with the operations team. Publish the detour before the next storm season.",
+          "costLowAUD": 20000,
+          "costHighAUD": 60000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Safety",
+            "Clear staff rules"
+          ]
+        },
+        {
+          "id": "corridor",
+          "title": "Reserve a setback corridor in the plan",
+          "detail": "Add the corridor to the local plan so new works cannot move toward the sea.",
+          "costLowAUD": 10000,
+          "costHighAUD": 40000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "No new exposure",
+            "Clear rules for owners"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 12
+    },
+    {
+      "asset": {
+        "id": "ocean-street",
+        "name": "Ocean Street",
+        "class": "road",
+        "position": [
+          151.299593,
+          -33.722246
+        ],
+        "replacementCostAUD": 2600000,
+        "usersPerDay": 3200,
+        "criticality": "lifeline",
+        "lengthM": 900
+      },
+      "exposure": {
+        "assetId": "ocean-street",
+        "transectId": "N06",
+        "inlandDistanceM": 34,
+        "crossTrackM": -0.1,
+        "assignmentGrade": "high",
+        "dataGrade": "high",
+        "confidence": "high",
+        "alreadyExposed": false,
+        "exposureYearBest": 54.8,
+        "exposureYearOptimistic": 76.6,
+        "exposureYearPessimistic": 42.7,
+        "exposureDateBest": 2081,
+        "band": "C",
+        "uncertain": true,
+        "note": "N06 Ocean Street: retreats 0.62 m/yr. Asset is 34 m inland. Best estimate exposure in 55 years (2081)."
+      },
+      "urgency": 35,
+      "consequence": 88.7,
+      "score": 56,
+      "options": [
+        {
+          "id": "road-access",
+          "title": "Keep emergency access and set closure triggers",
+          "detail": "Agree a rainfall and wave trigger with the operations team. Publish the detour before the next storm season.",
+          "costLowAUD": 20000,
+          "costHighAUD": 60000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Safety",
+            "Clear staff rules"
+          ]
+        },
+        {
+          "id": "corridor",
+          "title": "Reserve a setback corridor in the plan",
+          "detail": "Add the corridor to the local plan so new works cannot move toward the sea.",
+          "costLowAUD": 10000,
+          "costHighAUD": 40000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "No new exposure",
+            "Clear rules for owners"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 13
+    },
+    {
+      "asset": {
+        "id": "cafe",
+        "name": "Beach cafe",
+        "class": "building",
+        "position": [
+          151.30397,
+          -33.732405
+        ],
+        "replacementCostAUD": 900000,
+        "usersPerDay": 450,
+        "criticality": "community"
+      },
+      "exposure": {
+        "assetId": "cafe",
+        "transectId": "N11",
+        "inlandDistanceM": 40,
+        "crossTrackM": 0,
+        "assignmentGrade": "high",
+        "dataGrade": "high",
+        "confidence": "high",
+        "alreadyExposed": false,
+        "exposureYearBest": 90.8,
+        "exposureYearOptimistic": 132,
+        "exposureYearPessimistic": 69.2,
+        "exposureDateBest": 2117,
+        "band": "C",
+        "uncertain": false,
+        "note": "N11 Cafe strip: retreats 0.44 m/yr. Asset is 40 m inland. Best estimate exposure in 91 years (2117)."
+      },
+      "urgency": 35,
+      "consequence": 67.1,
+      "score": 48,
+      "options": [
+        {
+          "id": "corridor",
+          "title": "Reserve a setback corridor in the plan",
+          "detail": "Add the corridor to the local plan so new works cannot move toward the sea.",
+          "costLowAUD": 10000,
+          "costHighAUD": 40000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "No new exposure",
+            "Clear rules for owners"
+          ]
+        },
+        {
+          "id": "grant-study",
+          "title": "Fund a coastal hazard study",
+          "detail": "Commission a site study that adds storms, wave run-up and sea level rise to this screen.",
+          "costLowAUD": 50000,
+          "costHighAUD": 150000,
+          "leadTimeYears": 1.5,
+          "coBenefits": [
+            "Grant-ready evidence",
+            "Better cost estimates"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 14
+    },
+    {
+      "asset": {
+        "id": "toilets",
+        "name": "Public toilets",
+        "class": "building",
+        "position": [
+          151.300542,
+          -33.724312
+        ],
+        "replacementCostAUD": 320000,
+        "usersPerDay": 600,
+        "criticality": "community"
+      },
+      "exposure": {
+        "assetId": "toilets",
+        "transectId": "N07",
+        "inlandDistanceM": 30,
+        "crossTrackM": -6,
+        "assignmentGrade": "high",
+        "dataGrade": "medium",
+        "confidence": "medium",
+        "alreadyExposed": false,
+        "exposureYearBest": 62.6,
+        "exposureYearOptimistic": 87.6,
+        "exposureYearPessimistic": 48.7,
+        "exposureDateBest": 2089,
+        "band": "C",
+        "uncertain": true,
+        "note": "N07 Park Parade: retreats 0.48 m/yr. Asset is 30 m inland. Best estimate exposure in 63 years (2089)."
+      },
+      "urgency": 35,
+      "consequence": 60.6,
+      "score": 45,
+      "options": [
+        {
+          "id": "corridor",
+          "title": "Reserve a setback corridor in the plan",
+          "detail": "Add the corridor to the local plan so new works cannot move toward the sea.",
+          "costLowAUD": 10000,
+          "costHighAUD": 40000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "No new exposure",
+            "Clear rules for owners"
+          ]
+        },
+        {
+          "id": "grant-study",
+          "title": "Fund a coastal hazard study",
+          "detail": "Commission a site study that adds storms, wave run-up and sea level rise to this screen.",
+          "costLowAUD": 50000,
+          "costHighAUD": 150000,
+          "leadTimeYears": 1.5,
+          "coBenefits": [
+            "Grant-ready evidence",
+            "Better cost estimates"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 15
+    },
+    {
+      "asset": {
+        "id": "playground",
+        "name": "Playground",
+        "class": "other",
+        "position": [
+          151.302819,
+          -33.73017
+        ],
+        "replacementCostAUD": 180000,
+        "usersPerDay": 220,
+        "criticality": "amenity"
+      },
+      "exposure": {
+        "assetId": "playground",
+        "transectId": "N10",
+        "inlandDistanceM": 55,
+        "crossTrackM": 30,
+        "assignmentGrade": "medium",
+        "dataGrade": "medium",
+        "confidence": "medium",
+        "alreadyExposed": false,
+        "exposureYearBest": 220.2,
+        "exposureYearOptimistic": 362.1,
+        "exposureYearPessimistic": 158.2,
+        "exposureDateBest": 2246,
+        "band": "D",
+        "uncertain": false,
+        "note": "N10 Lagoon mouth: retreats 0.25 m/yr. Asset is 55 m inland. Best estimate exposure in 220 years (2246)."
+      },
+      "urgency": 10,
+      "consequence": 47.9,
+      "score": 25,
+      "options": [
+        {
+          "id": "corridor",
+          "title": "Reserve a setback corridor in the plan",
+          "detail": "Add the corridor to the local plan so new works cannot move toward the sea.",
+          "costLowAUD": 10000,
+          "costHighAUD": 40000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "No new exposure",
+            "Clear rules for owners"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "rank": 16
+    }
+  ],
+  "interventions": [
+    {
+      "asset": {
+        "id": "slsc",
+        "name": "South Narrabeen Surf Life Saving Club",
+        "class": "building",
+        "position": [
+          151.298887,
+          -33.720162
+        ],
+        "replacementCostAUD": 2400000,
+        "usersPerDay": 260,
+        "criticality": "community"
+      },
+      "exposure": {
+        "assetId": "slsc",
+        "transectId": "N05",
+        "inlandDistanceM": 16,
+        "crossTrackM": 0,
+        "assignmentGrade": "high",
+        "dataGrade": "high",
+        "confidence": "high",
+        "alreadyExposed": false,
+        "exposureYearBest": 17.8,
+        "exposureYearOptimistic": 25.6,
+        "exposureYearPessimistic": 13.6,
+        "exposureDateBest": 2044,
+        "band": "A",
+        "uncertain": false,
+        "note": "N05 Surf club: retreats 0.9 m/yr. Asset is 16 m inland. Best estimate exposure in 18 years (2044)."
+      },
+      "score": 89,
+      "options": [
+        {
+          "id": "building-protect",
+          "title": "Protect the building and plan retreat",
+          "detail": "Raise and seal the ground floor, protect services, and set a trigger for a later move.",
+          "costLowAUD": 150000,
+          "costHighAUD": 600000,
+          "leadTimeYears": 2,
+          "coBenefits": [
+            "Service life extended",
+            "Wet-floor resilience"
+          ]
+        },
+        {
+          "id": "building-retreat",
+          "title": "Plan a staged retreat or land swap",
+          "detail": "Value the site, find a replacement site and agree a move date with the owner.",
+          "costLowAUD": 60000,
+          "costHighAUD": 200000,
+          "leadTimeYears": 5,
+          "coBenefits": [
+            "Avoided loss",
+            "Certainty for users"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "costLowAUD": 150000,
+      "costHighAUD": 600000
+    },
+    {
+      "asset": {
+        "id": "boardwalk",
+        "name": "Dune boardwalk",
+        "class": "path",
+        "position": [
+          151.298101,
+          -33.71818
+        ],
+        "replacementCostAUD": 160000,
+        "usersPerDay": 350,
+        "criticality": "amenity",
+        "lengthM": 300
+      },
+      "exposure": {
+        "assetId": "boardwalk",
+        "transectId": "N04",
+        "inlandDistanceM": 9,
+        "crossTrackM": -8,
+        "assignmentGrade": "high",
+        "dataGrade": "high",
+        "confidence": "high",
+        "alreadyExposed": false,
+        "exposureYearBest": 12.7,
+        "exposureYearOptimistic": 17.5,
+        "exposureYearPessimistic": 9.9,
+        "exposureDateBest": 2039,
+        "band": "A",
+        "uncertain": false,
+        "note": "N04 Wamberal corner: retreats 0.71 m/yr. Asset is 9 m inland. Best estimate exposure in 13 years (2039)."
+      },
+      "score": 79,
+      "options": [
+        {
+          "id": "path-realign",
+          "title": "Realign the path behind the dune",
+          "detail": "Move the path landward to a stable setback line. Use a permeable surface and a gentle grade.",
+          "costLowAUD": 90000,
+          "costHighAUD": 260000,
+          "leadTimeYears": 1.5,
+          "coBenefits": [
+            "Access kept open",
+            "Dune recovery"
+          ]
+        },
+        {
+          "id": "dune-restore",
+          "title": "Rebuild the dune and fence the access",
+          "detail": "Place sand fencing, plant local dune species and keep foot traffic on marked paths.",
+          "costLowAUD": 40000,
+          "costHighAUD": 150000,
+          "leadTimeYears": 1.5,
+          "coBenefits": [
+            "Habitat",
+            "Wave buffer",
+            "Lower cost than a wall"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "costLowAUD": 90000,
+      "costHighAUD": 260000
+    },
+    {
+      "asset": {
+        "id": "ramp-south",
+        "name": "Beach access ramp, south",
+        "class": "beach_access",
+        "position": [
+          151.302592,
+          -33.728362
+        ],
+        "replacementCostAUD": 120000,
+        "usersPerDay": 520,
+        "criticality": "amenity"
+      },
+      "exposure": {
+        "assetId": "ramp-south",
+        "transectId": "N09",
+        "inlandDistanceM": 6,
+        "crossTrackM": -14,
+        "assignmentGrade": "high",
+        "dataGrade": "medium",
+        "confidence": "medium",
+        "alreadyExposed": false,
+        "exposureYearBest": 15.8,
+        "exposureYearOptimistic": 22.9,
+        "exposureYearPessimistic": 12.1,
+        "exposureDateBest": 2042,
+        "band": "A",
+        "uncertain": false,
+        "note": "N09 South access: retreats 0.38 m/yr. Asset is 6 m inland. Best estimate exposure in 16 years (2042)."
+      },
+      "score": 79,
+      "options": [
+        {
+          "id": "access-relocate",
+          "title": "Relocate the stairs and ramp landward",
+          "detail": "Build a movable access structure at the new dune line. Keep one accessible route.",
+          "costLowAUD": 60000,
+          "costHighAUD": 180000,
+          "leadTimeYears": 1,
+          "coBenefits": [
+            "Access for all",
+            "Less dune damage"
+          ]
+        },
+        {
+          "id": "dune-restore",
+          "title": "Rebuild the dune and fence the access",
+          "detail": "Place sand fencing, plant local dune species and keep foot traffic on marked paths.",
+          "costLowAUD": 40000,
+          "costHighAUD": 150000,
+          "leadTimeYears": 1.5,
+          "coBenefits": [
+            "Habitat",
+            "Wave buffer",
+            "Lower cost than a wall"
+          ]
+        },
+        {
+          "id": "monitor",
+          "title": "Monitor the shoreline each year",
+          "detail": "Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.",
+          "costLowAUD": 5000,
+          "costHighAUD": 20000,
+          "leadTimeYears": 0.5,
+          "coBenefits": [
+            "Early warning",
+            "Grant evidence"
+          ]
+        }
+      ],
+      "costLowAUD": 60000,
+      "costHighAUD": 180000
+    }
+  ],
+  "summary": {
+    "assetCount": 16,
+    "assessedCount": 16,
+    "unassignedCount": 0,
+    "bandCounts": {
+      "A": 7,
+      "B": 4,
+      "C": 4,
+      "D": 1
+    },
+    "valueAtRiskBandAAUD": 3675000,
+    "valueAtRiskBandABAUD": 5635000,
+    "routeLengthAtRiskM": 900,
+    "highConfidenceShare": 0.563,
+    "assessedShare": 1,
+    "alreadyExposedCount": 0,
+    "uncertainCount": 3
+  },
+  "warnings": [
+    "This site uses sample data. Replace it with a DEA Coastlines export before any decision.",
+    "3 assets could fall in an earlier band under the 95% confidence case."
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "type": "FeatureCollection",
+  "name": "narrabeen-coastal-assets",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.298887,
+          -33.720162
+        ]
+      },
+      "properties": {
+        "id": "slsc",
+        "name": "South Narrabeen Surf Life Saving Club",
+        "class": "building",
+        "assessed": true,
+        "band": "A",
+        "score": 89,
+        "exposure_year": 17.8,
+        "exposure_date": 2044,
+        "inland_m": 16,
+        "confidence": "high",
+        "replacement_cost_aud": 2400000,
+        "cost_is_estimate": false,
+        "users_per_day": 260,
+        "length_m": null,
+        "owner": null,
+        "transect_id": "N05"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.29716,
+          -33.715976
+        ]
+      },
+      "properties": {
+        "id": "stairs-north",
+        "name": "Beach access stairs, north",
+        "class": "beach_access",
+        "assessed": true,
+        "band": "A",
+        "score": 78,
+        "exposure_year": 12,
+        "exposure_date": 2038,
+        "inland_m": 6.9,
+        "confidence": "high",
+        "replacement_cost_aud": 85000,
+        "cost_is_estimate": false,
+        "users_per_day": 400,
+        "length_m": null,
+        "owner": null,
+        "transect_id": "N03"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.298101,
+          -33.71818
+        ]
+      },
+      "properties": {
+        "id": "boardwalk",
+        "name": "Dune boardwalk",
+        "class": "path",
+        "assessed": true,
+        "band": "A",
+        "score": 79,
+        "exposure_year": 12.7,
+        "exposure_date": 2039,
+        "inland_m": 9,
+        "confidence": "high",
+        "replacement_cost_aud": 160000,
+        "cost_is_estimate": false,
+        "users_per_day": 350,
+        "length_m": 300,
+        "owner": null,
+        "transect_id": "N04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.296321,
+          -33.714086
+        ]
+      },
+      "properties": {
+        "id": "outfall-north",
+        "name": "Stormwater outfall, north",
+        "class": "drainage",
+        "assessed": true,
+        "band": "A",
+        "score": 78,
+        "exposure_year": 17.6,
+        "exposure_date": 2044,
+        "inland_m": 7.9,
+        "confidence": "high",
+        "replacement_cost_aud": 350000,
+        "cost_is_estimate": false,
+        "users_per_day": null,
+        "length_m": null,
+        "owner": null,
+        "transect_id": "N02"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.299593,
+          -33.722246
+        ]
+      },
+      "properties": {
+        "id": "ocean-street",
+        "name": "Ocean Street",
+        "class": "road",
+        "assessed": true,
+        "band": "C",
+        "score": 56,
+        "exposure_year": 54.8,
+        "exposure_date": 2081,
+        "inland_m": 34,
+        "confidence": "high",
+        "replacement_cost_aud": 2600000,
+        "cost_is_estimate": false,
+        "users_per_day": 3200,
+        "length_m": 900,
+        "owner": null,
+        "transect_id": "N06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.302316,
+          -33.728311
+        ]
+      },
+      "properties": {
+        "id": "park-parade",
+        "name": "Narrabeen Park Parade",
+        "class": "road",
+        "assessed": true,
+        "band": "C",
+        "score": 57,
+        "exposure_year": 73.8,
+        "exposure_date": 2100,
+        "inland_m": 28,
+        "confidence": "medium",
+        "replacement_cost_aud": 3100000,
+        "cost_is_estimate": false,
+        "users_per_day": 4100,
+        "length_m": 900,
+        "owner": null,
+        "transect_id": "N09"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.301581,
+          -33.726237
+        ]
+      },
+      "properties": {
+        "id": "cycleway",
+        "name": "Beachfront cycleway",
+        "class": "path",
+        "assessed": true,
+        "band": "B",
+        "score": 63,
+        "exposure_year": 23.6,
+        "exposure_date": 2050,
+        "inland_m": 13,
+        "confidence": "high",
+        "replacement_cost_aud": 480000,
+        "cost_is_estimate": false,
+        "users_per_day": 900,
+        "length_m": 300,
+        "owner": null,
+        "transect_id": "N08"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.298719,
+          -33.720041
+        ]
+      },
+      "properties": {
+        "id": "carpark-surf",
+        "name": "Surf club car park",
+        "class": "car_park",
+        "assessed": true,
+        "band": "B",
+        "score": 64,
+        "exposure_year": 28.9,
+        "exposure_date": 2055,
+        "inland_m": 26,
+        "confidence": "medium",
+        "replacement_cost_aud": 750000,
+        "cost_is_estimate": false,
+        "users_per_day": 700,
+        "length_m": null,
+        "owner": null,
+        "transect_id": "N05"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.300542,
+          -33.724312
+        ]
+      },
+      "properties": {
+        "id": "toilets",
+        "name": "Public toilets",
+        "class": "building",
+        "assessed": true,
+        "band": "C",
+        "score": 45,
+        "exposure_year": 62.6,
+        "exposure_date": 2089,
+        "inland_m": 30,
+        "confidence": "medium",
+        "replacement_cost_aud": 320000,
+        "cost_is_estimate": false,
+        "users_per_day": 600,
+        "length_m": null,
+        "owner": null,
+        "transect_id": "N07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.29903,
+          -33.72033
+        ]
+      },
+      "properties": {
+        "id": "tower",
+        "name": "Lifesaving observation tower",
+        "class": "building",
+        "assessed": true,
+        "band": "A",
+        "score": 78,
+        "exposure_year": 11.1,
+        "exposure_date": 2037,
+        "inland_m": 10,
+        "confidence": "medium",
+        "replacement_cost_aud": 140000,
+        "cost_is_estimate": false,
+        "users_per_day": 40,
+        "length_m": null,
+        "owner": null,
+        "transect_id": "N05"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.302819,
+          -33.73017
+        ]
+      },
+      "properties": {
+        "id": "playground",
+        "name": "Playground",
+        "class": "other",
+        "assessed": true,
+        "band": "D",
+        "score": 25,
+        "exposure_year": 220.2,
+        "exposure_date": 2246,
+        "inland_m": 55,
+        "confidence": "medium",
+        "replacement_cost_aud": 180000,
+        "cost_is_estimate": false,
+        "users_per_day": 220,
+        "length_m": null,
+        "owner": null,
+        "transect_id": "N10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.30397,
+          -33.732405
+        ]
+      },
+      "properties": {
+        "id": "cafe",
+        "name": "Beach cafe",
+        "class": "building",
+        "assessed": true,
+        "band": "C",
+        "score": 48,
+        "exposure_year": 90.8,
+        "exposure_date": 2117,
+        "inland_m": 40,
+        "confidence": "high",
+        "replacement_cost_aud": 900000,
+        "cost_is_estimate": false,
+        "users_per_day": 450,
+        "length_m": null,
+        "owner": null,
+        "transect_id": "N11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.305173,
+          -33.734338
+        ]
+      },
+      "properties": {
+        "id": "pool-path",
+        "name": "Ocean pool access path",
+        "class": "path",
+        "assessed": true,
+        "band": "B",
+        "score": 59,
+        "exposure_year": 29.9,
+        "exposure_date": 2056,
+        "inland_m": 9,
+        "confidence": "high",
+        "replacement_cost_aud": 210000,
+        "cost_is_estimate": false,
+        "users_per_day": 300,
+        "length_m": 300,
+        "owner": null,
+        "transect_id": "N12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.295395,
+          -33.712128
+        ]
+      },
+      "properties": {
+        "id": "carpark-north",
+        "name": "North car park",
+        "class": "car_park",
+        "assessed": true,
+        "band": "B",
+        "score": 62,
+        "exposure_year": 43.7,
+        "exposure_date": 2070,
+        "inland_m": 14,
+        "confidence": "high",
+        "replacement_cost_aud": 520000,
+        "cost_is_estimate": false,
+        "users_per_day": 380,
+        "length_m": null,
+        "owner": null,
+        "transect_id": "N01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.303426,
+          -33.730216
+        ]
+      },
+      "properties": {
+        "id": "outfall-south",
+        "name": "Stormwater outfall, south",
+        "class": "drainage",
+        "assessed": true,
+        "band": "A",
+        "score": 79,
+        "exposure_year": 16.1,
+        "exposure_date": 2042,
+        "inland_m": 4,
+        "confidence": "medium",
+        "replacement_cost_aud": 420000,
+        "cost_is_estimate": false,
+        "users_per_day": null,
+        "length_m": null,
+        "owner": null,
+        "transect_id": "N10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.302592,
+          -33.728362
+        ]
+      },
+      "properties": {
+        "id": "ramp-south",
+        "name": "Beach access ramp, south",
+        "class": "beach_access",
+        "assessed": true,
+        "band": "A",
+        "score": 79,
+        "exposure_year": 15.8,
+        "exposure_date": 2042,
+        "inland_m": 6,
+        "confidence": "medium",
+        "replacement_cost_aud": 120000,
+        "cost_is_estimate": false,
+        "users_per_day": 520,
+        "length_m": null,
+        "owner": null,
+        "transect_id": "N09"
+      }
+    }
+  ]
+}

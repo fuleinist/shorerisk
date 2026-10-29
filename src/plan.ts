@@ -251,7 +251,7 @@ export function renderPlan(site: SiteInput, model: SiteModel): string {
       .join('')}
   </g>
   <text x="${PAD}" y="26" class="heading">${escapeHtml(site.name)}</text>
-  <text x="${PAD}" y="44" class="meta">Baseline ${model.baselineYear} &middot; plan view &middot; north is up &middot; ${model.summary.assessedCount} assessed assets</text>
+  <text x="${PAD}" y="44" class="meta">Baseline ${model.baselineYear} · plan view · north is up · ${model.summary.assessedCount} assessed assets</text>
   ${scaleBar()}
   <text x="${WIDTH - PAD}" y="${HEIGHT - 16}" text-anchor="end" class="meta">Schematic. Not a survey drawing.</text>
 </svg>`;

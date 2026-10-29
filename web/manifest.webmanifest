@@ -1,0 +1,18 @@
+{
+  "name": "shorerisk - coastal asset risk register",
+  "short_name": "shorerisk",
+  "description": "Open shoreline change rates joined to roads, paths and buildings, with ranked exposure and costed adaptation options.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f6f8",
+  "theme_color": "#0d2231",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

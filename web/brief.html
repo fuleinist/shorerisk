@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Narrabeen Beach coastal asset risk brief</title>
+<style>
+  :root {
+    --ink: #14232d;
+    --muted: #5b6b78;
+    --rule: #d7dee4;
+    --paper: #ffffff;
+    --wash: #f4f7f9;
+    --a: #b3261e;
+    --b: #b06000;
+    --c: #2f5d7c;
+    --d: #6b7780;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--wash);
+    color: var(--ink);
+    font: 15px/1.5 "Segoe UI", -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  }
+  .brief {
+    background: var(--paper);
+    max-width: 980px;
+    margin: 24px auto;
+    padding: 40px 44px 32px;
+    box-shadow: 0 8px 30px rgba(16, 32, 44, .10);
+  }
+  .kicker {
+    text-transform: uppercase;
+    letter-spacing: .14em;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--c);
+  }
+  h1 { font-size: 30px; line-height: 1.15; margin: 6px 0 4px; }
+  h2 { font-size: 15px; text-transform: uppercase; letter-spacing: .08em; margin: 30px 0 10px; color: var(--c); }
+  h3 { font-size: 16px; margin: 0 0 2px; }
+  p { margin: 0 0 10px; }
+  .sub { color: var(--muted); }
+  .provenance { font-size: 12px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 10px; margin-top: 14px; }
+  .warnings {
+    margin-top: 22px;
+    border-left: 4px solid var(--a);
+    background: #fdf3f2;
+    padding: 12px 16px;
+  }
+  .warnings h2 { margin: 0 0 6px; color: var(--a); }
+  .warnings ul { margin: 0; padding-left: 18px; }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    margin: 22px 0 6px;
+  }
+  .stat { background: var(--wash); border: 1px solid var(--rule); padding: 12px 14px; }
+  .stat-value { display: block; font-size: 24px; font-weight: 700; line-height: 1.2; }
+  .stat-label { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { text-align: left; font-size: 10px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); border-bottom: 2px solid var(--rule); padding: 6px 8px; }
+  td { border-bottom: 1px solid var(--rule); padding: 8px; vertical-align: top; }
+  td.num, th.num { text-align: right; }
+  td .muted { display: block; font-size: 11px; color: var(--muted); }
+  .muted { color: var(--muted); font-size: 12px; }
+  .chip { display: inline-block; padding: 2px 7px; border-radius: 10px; font-size: 10px; font-weight: 700; color: #fff; white-space: nowrap; }
+  .band-a { background: var(--a); }
+  .band-b { background: var(--b); }
+  .band-c { background: var(--c); }
+  .band-d { background: var(--d); }
+  .flag { font-size: 10px; color: var(--b); font-weight: 700; }
+  .confidence { text-transform: capitalize; color: var(--muted); }
+  .note { font-size: 11px; color: var(--muted); margin-top: 8px; }
+  .cards { display: grid; gap: 12px; }
+  .card { border: 1px solid var(--rule); border-left: 4px solid var(--c); padding: 14px 16px; }
+  .card-head { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 8px; }
+  .card-number { font-size: 22px; font-weight: 700; color: var(--c); line-height: 1; }
+  .measure { font-size: 13px; color: var(--muted); }
+  .cost { font-weight: 700; }
+  .benefits { font-size: 12px; color: var(--muted); }
+  .alts { margin: 8px 0 0; padding-left: 18px; font-size: 12px; color: var(--muted); }
+  ul, ol { margin: 0 0 10px; padding-left: 20px; }
+  li { margin-bottom: 5px; }
+  footer { margin-top: 30px; border-top: 1px solid var(--rule); padding-top: 12px; font-size: 11px; color: var(--muted); }
+  @media print {
+    body { background: #fff; font-size: 10.5pt; }
+    .brief { box-shadow: none; margin: 0; max-width: none; padding: 0; }
+    .page-break { break-before: page; }
+    h2 { break-after: avoid; }
+    tr, .card { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<main class="brief">
+  <header>
+    <div class="kicker">Coastal asset risk brief</div>
+    <h1>Narrabeen Beach</h1>
+    <p class="sub">Northern Beaches Council, NSW &middot; baseline 2026 &middot; generated 29 Oct 2026</p>
+    <p class="provenance">Shoreline rates: Illustrative transects and assets, not a DEA or council product (MIT for this repository). Sample only. Rates are plausible but not official DEA Coastlines values. Costs are indicative. Replace both with a DEA export and a council asset register.</p>
+  </header>
+
+    <section class="warnings">
+      <h2>Check before you use this</h2>
+      <ul><li>This site uses sample data. Replace it with a DEA Coastlines export before any decision.</li><li>3 assets could fall in an earlier band under the 95% confidence case.</li></ul>
+    </section>
+  <section class="stats"><div class="stat"><span class="stat-value">16/16</span><span class="stat-label">assets assessed</span></div><div class="stat"><span class="stat-value">7</span><span class="stat-label">in band A</span></div><div class="stat"><span class="stat-value">4</span><span class="stat-label">in band B</span></div><div class="stat"><span class="stat-value">$3.7M</span><span class="stat-label">replacement value, band A</span></div><div class="stat"><span class="stat-value">56%</span><span class="stat-label">high-confidence share</span></div><div class="stat"><span class="stat-value">900 m</span><span class="stat-label">road and path in bands A-B</span></div></section>
+
+  <section>
+    <h2>What this means</h2>
+    <p>7 assets sit in band A. These may meet the shoreline within 20 years. Their combined replacement value is $3,675,000. 4 more fall in band B. They need a plan, not an emergency works order. Confirm the costs and the options with a coastal engineer before a council brief.</p>
+  </section>
+
+  <section>
+    <h2>Ranked assets</h2>
+    <table>
+      <thead>
+        <tr>
+          <th class="num">#</th>
+          <th>Asset</th>
+          <th>Band</th>
+          <th>Exposure</th>
+          <th class="num">Score</th>
+          <th class="num">Replacement</th>
+          <th class="num">Users/day</th>
+          <th>Confidence</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td class="num">1</td>
+        <td>
+          <strong>South Narrabeen Surf Life Saving Club</strong>
+          <span class="muted">building</span>
+        </td>
+        <td><span class="chip band-a">A &middot; Act now</span></td>
+        <td>~2044 <span class="muted">(18 yrs)</span></td>
+        <td class="num">89</td>
+        <td class="num">$2.4M</td>
+        <td class="num">260</td>
+        <td class="confidence">high</td>
+      </tr>
+      <tr>
+        <td class="num">2</td>
+        <td>
+          <strong>Dune boardwalk</strong>
+          <span class="muted">path</span>
+        </td>
+        <td><span class="chip band-a">A &middot; Act now</span></td>
+        <td>~2039 <span class="muted">(13 yrs)</span></td>
+        <td class="num">79</td>
+        <td class="num">$160k</td>
+        <td class="num">350</td>
+        <td class="confidence">high</td>
+      </tr>
+      <tr>
+        <td class="num">3</td>
+        <td>
+          <strong>Beach access ramp, south</strong>
+          <span class="muted">beach access</span>
+        </td>
+        <td><span class="chip band-a">A &middot; Act now</span></td>
+        <td>~2042 <span class="muted">(16 yrs)</span></td>
+        <td class="num">79</td>
+        <td class="num">$120k</td>
+        <td class="num">520</td>
+        <td class="confidence">medium</td>
+      </tr>
+      <tr>
+        <td class="num">4</td>
+        <td>
+          <strong>Stormwater outfall, south</strong>
+          <span class="muted">drainage</span>
+        </td>
+        <td><span class="chip band-a">A &middot; Act now</span></td>
+        <td>~2042 <span class="muted">(16 yrs)</span></td>
+        <td class="num">79</td>
+        <td class="num">$420k</td>
+        <td class="num">&mdash;</td>
+        <td class="confidence">medium</td>
+      </tr>
+      <tr>
+        <td class="num">5</td>
+        <td>
+          <strong>Lifesaving observation tower</strong>
+          <span class="muted">building</span>
+        </td>
+        <td><span class="chip band-a">A &middot; Act now</span></td>
+        <td>~2037 <span class="muted">(11 yrs)</span></td>
+        <td class="num">78</td>
+        <td class="num">$140k</td>
+        <td class="num">40</td>
+        <td class="confidence">medium</td>
+      </tr>
+      <tr>
+        <td class="num">6</td>
+        <td>
+          <strong>Beach access stairs, north</strong>
+          <span class="muted">beach access</span>
+        </td>
+        <td><span class="chip band-a">A &middot; Act now</span></td>
+        <td>~2038 <span class="muted">(12 yrs)</span></td>
+        <td class="num">78</td>
+        <td class="num">$85k</td>
+        <td class="num">400</td>
+        <td class="confidence">high</td>
+      </tr>
+      <tr>
+        <td class="num">7</td>
+        <td>
+          <strong>Stormwater outfall, north</strong>
+          <span class="muted">drainage</span>
+        </td>
+        <td><span class="chip band-a">A &middot; Act now</span></td>
+        <td>~2044 <span class="muted">(18 yrs)</span></td>
+        <td class="num">78</td>
+        <td class="num">$350k</td>
+        <td class="num">&mdash;</td>
+        <td class="confidence">high</td>
+      </tr>
+      <tr>
+        <td class="num">8</td>
+        <td>
+          <strong>Surf club car park</strong>
+          <span class="muted">car park</span>
+        </td>
+        <td><span class="chip band-b">B &middot; Plan</span></td>
+        <td>~2055 <span class="muted">(29 yrs)</span></td>
+        <td class="num">64</td>
+        <td class="num">$750k</td>
+        <td class="num">700</td>
+        <td class="confidence">medium</td>
+      </tr>
+      <tr>
+        <td class="num">9</td>
+        <td>
+          <strong>Beachfront cycleway</strong>
+          <span class="muted">path</span>
+        </td>
+        <td><span class="chip band-b">B &middot; Plan</span></td>
+        <td>~2050 <span class="muted">(24 yrs)</span></td>
+        <td class="num">63</td>
+        <td class="num">$480k</td>
+        <td class="num">900</td>
+        <td class="confidence">high</td>
+      </tr>
+      <tr>
+        <td class="num">10</td>
+        <td>
+          <strong>North car park</strong>
+          <span class="muted">car park</span>
+        </td>
+        <td><span class="chip band-b">B &middot; Plan</span></td>
+        <td>~2070 <span class="muted">(44 yrs)</span></td>
+        <td class="num">62</td>
+        <td class="num">$520k</td>
+        <td class="num">380</td>
+        <td class="confidence">high</td>
+      </tr>
+      <tr>
+        <td class="num">11</td>
+        <td>
+          <strong>Ocean pool access path</strong>
+          <span class="muted">path</span>
+        </td>
+        <td><span class="chip band-b">B &middot; Plan</span></td>
+        <td>~2056 <span class="muted">(30 yrs)</span></td>
+        <td class="num">59</td>
+        <td class="num">$210k</td>
+        <td class="num">300</td>
+        <td class="confidence">high</td>
+      </tr>
+      <tr>
+        <td class="num">12</td>
+        <td>
+          <strong>Narrabeen Park Parade</strong>
+          <span class="muted">road</span>
+        </td>
+        <td><span class="chip band-c">C &middot; Watch</span></td>
+        <td>~2100 <span class="muted">(74 yrs)</span></td>
+        <td class="num">57</td>
+        <td class="num">$3.1M</td>
+        <td class="num">4,100</td>
+        <td class="confidence">medium</td>
+      </tr>
+      </tbody>
+    </table>
+    <p class="note">Score = 0.6 &times; urgency + 0.4 &times; consequence. Urgency is set by the band. Consequence combines replacement cost, daily users and criticality. Showing the top 12 of 16 assessed assets.</p>
+  </section>
+
+  <section class="page-break">
+    <h2>Priority interventions</h2>
+    <div class="cards">
+      <article class="card">
+        <div class="card-head">
+          <span class="card-number">1</span>
+          <div>
+            <h3>South Narrabeen Surf Life Saving Club</h3>
+            <p class="muted">building &middot; rank 89/100 &middot; <span class="chip band-a">band A</span></p>
+          </div>
+        </div>
+        <p class="measure">Asset sits 16 m inland. Best estimate exposure in 18 years (2044).</p>
+        <p><strong>Protect the building and plan retreat</strong></p>
+        <p>Raise and seal the ground floor, protect services, and set a trigger for a later move.</p>
+        <p class="cost">$150,000 to $600,000 &middot; lead time 2 yrs</p>
+        <p class="benefits">Co-benefits: Service life extended, Wet-floor resilience.</p>
+        <ul class="alts"><li><strong>Plan a staged retreat or land swap</strong> &mdash; $60k to $200k. Value the site, find a replacement site and agree a move date with the owner.</li><li><strong>Monitor the shoreline each year</strong> &mdash; $5k to $20k. Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.</li></ul>
+      </article>
+      <article class="card">
+        <div class="card-head">
+          <span class="card-number">2</span>
+          <div>
+            <h3>Dune boardwalk</h3>
+            <p class="muted">path &middot; rank 79/100 &middot; <span class="chip band-a">band A</span></p>
+          </div>
+        </div>
+        <p class="measure">Asset sits 9 m inland. Best estimate exposure in 13 years (2039).</p>
+        <p><strong>Realign the path behind the dune</strong></p>
+        <p>Move the path landward to a stable setback line. Use a permeable surface and a gentle grade.</p>
+        <p class="cost">$90,000 to $260,000 &middot; lead time 1.5 yrs</p>
+        <p class="benefits">Co-benefits: Access kept open, Dune recovery.</p>
+        <ul class="alts"><li><strong>Rebuild the dune and fence the access</strong> &mdash; $40k to $150k. Place sand fencing, plant local dune species and keep foot traffic on marked paths.</li><li><strong>Monitor the shoreline each year</strong> &mdash; $5k to $20k. Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.</li></ul>
+      </article>
+      <article class="card">
+        <div class="card-head">
+          <span class="card-number">3</span>
+          <div>
+            <h3>Beach access ramp, south</h3>
+            <p class="muted">beach access &middot; rank 79/100 &middot; <span class="chip band-a">band A</span></p>
+          </div>
+        </div>
+        <p class="measure">Asset sits 6 m inland. Best estimate exposure in 16 years (2042).</p>
+        <p><strong>Relocate the stairs and ramp landward</strong></p>
+        <p>Build a movable access structure at the new dune line. Keep one accessible route.</p>
+        <p class="cost">$60,000 to $180,000 &middot; lead time 1 yrs</p>
+        <p class="benefits">Co-benefits: Access for all, Less dune damage.</p>
+        <ul class="alts"><li><strong>Rebuild the dune and fence the access</strong> &mdash; $40k to $150k. Place sand fencing, plant local dune species and keep foot traffic on marked paths.</li><li><strong>Monitor the shoreline each year</strong> &mdash; $5k to $20k. Survey this transect after each storm season and refresh the rate every five years. Keep photos and a survey note.</li></ul>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>Method</h2>
+    <ol>
+      <li>Each asset is matched to the nearest shoreline transect. The inland distance is measured along that transect from the baseline shoreline.</li>
+      <li>The setback at a given year is the retreat rate multiplied by the number of years. A negative rate means retreat.</li>
+      <li>Bands: A is 0 to 20 years, B is 20 to 50, C is 50 to 100, and D is beyond 100 years or no retreat.</li>
+      <li>The 95% confidence range uses the standard error of the rate. It sets the optimistic and pessimistic years.</li>
+      <li>Confidence combines the transect data grade and the cross-shore offset of the asset.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Limits</h2>
+    <ul>
+      <li>The rate is historical. It is not a forecast.</li>
+      <li>The model assumes a constant rate. Storms, wave run-up and sea level acceleration are not included.</li>
+      <li>Transects are straight lines. They cover a 60 m wide corridor.</li>
+      <li>Costs are order-of-cost in 2026 AUD. An engineer must confirm them.</li>
+      <li>Rocky coasts, headlands and estuaries are outside the rate product.</li>
+      <li>This brief is a screening aid. It is not a coastal hazard assessment or a statutory plan.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Sample data generated for this repository &middot; data retrieved 2026-10-30 &middot; shorerisk v0.1 &middot; MIT licence
+  </footer>
+</main>
+</body>
+</html>

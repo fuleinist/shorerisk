@@ -121,6 +121,7 @@ export interface RankedAsset {
   urgency: number;
   consequence: number;
   score: number;
+  options: AdaptationOption[];
 }
 
 export interface AdaptationOption {
