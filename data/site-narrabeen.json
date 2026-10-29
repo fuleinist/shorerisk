@@ -1,0 +1,441 @@
+{
+  "id": "narrabeen",
+  "name": "Narrabeen Beach",
+  "council": "Northern Beaches Council",
+  "state": "NSW",
+  "baselineYear": 2026,
+  "provenance": {
+    "source": "Sample data generated for this repository",
+    "dataset": "Illustrative transects and assets, not a DEA or council product",
+    "retrieved": "2026-10-30",
+    "licence": "MIT for this repository",
+    "note": "Sample only. Rates are plausible but not official DEA Coastlines values. Costs are indicative. Replace both with a DEA export and a council asset register."
+  },
+  "transects": [
+    {
+      "id": "N01",
+      "label": "N01 Narrabeen north",
+      "offshore": [
+        151.2955,
+        -33.712
+      ],
+      "onshore": [
+        151.293468,
+        -33.712615
+      ],
+      "rateMPerYear": -0.32,
+      "seMPerYear": 0.06,
+      "sigPValue": 0.004,
+      "validObs": 30,
+      "validSpan": 31,
+      "certainty": "good",
+      "source": "Sample rates for this repository. Not DEA values."
+    },
+    {
+      "id": "N02",
+      "label": "N02 Narrabeen SLSC",
+      "offshore": [
+        151.296387,
+        -33.714028
+      ],
+      "onshore": [
+        151.294356,
+        -33.714643
+      ],
+      "rateMPerYear": -0.45,
+      "seMPerYear": 0.08,
+      "sigPValue": 0.002,
+      "validObs": 31,
+      "validSpan": 32,
+      "certainty": "good",
+      "source": "Sample rates for this repository. Not DEA values."
+    },
+    {
+      "id": "N03",
+      "label": "N03 North access",
+      "offshore": [
+        151.297275,
+        -33.716056
+      ],
+      "onshore": [
+        151.295243,
+        -33.716672
+      ],
+      "rateMPerYear": -0.58,
+      "seMPerYear": 0.09,
+      "sigPValue": 0.008,
+      "validObs": 32,
+      "validSpan": 33,
+      "certainty": "good",
+      "source": "Sample rates for this repository. Not DEA values."
+    },
+    {
+      "id": "N04",
+      "label": "N04 Wamberal corner",
+      "offshore": [
+        151.298163,
+        -33.718085
+      ],
+      "onshore": [
+        151.29613,
+        -33.7187
+      ],
+      "rateMPerYear": -0.71,
+      "seMPerYear": 0.1,
+      "sigPValue": 0.003,
+      "validObs": 33,
+      "validSpan": 31,
+      "certainty": "good",
+      "source": "Sample rates for this repository. Not DEA values."
+    },
+    {
+      "id": "N05",
+      "label": "N05 Surf club",
+      "offshore": [
+        151.29905,
+        -33.720113
+      ],
+      "onshore": [
+        151.297018,
+        -33.720728
+      ],
+      "rateMPerYear": -0.9,
+      "seMPerYear": 0.14,
+      "sigPValue": 0.001,
+      "validObs": 30,
+      "validSpan": 32,
+      "certainty": "good",
+      "source": "Sample rates for this repository. Not DEA values."
+    },
+    {
+      "id": "N06",
+      "label": "N06 Ocean Street",
+      "offshore": [
+        151.299938,
+        -33.722141
+      ],
+      "onshore": [
+        151.297906,
+        -33.722756
+      ],
+      "rateMPerYear": -0.62,
+      "seMPerYear": 0.09,
+      "sigPValue": 0.006,
+      "validObs": 31,
+      "validSpan": 33,
+      "certainty": "good",
+      "source": "Sample rates for this repository. Not DEA values."
+    },
+    {
+      "id": "N07",
+      "label": "N07 Park Parade",
+      "offshore": [
+        151.300825,
+        -33.724169
+      ],
+      "onshore": [
+        151.298793,
+        -33.724784
+      ],
+      "rateMPerYear": -0.48,
+      "seMPerYear": 0.07,
+      "sigPValue": 0.011,
+      "validObs": 32,
+      "validSpan": 31,
+      "certainty": "good",
+      "source": "Sample rates for this repository. Not DEA values."
+    },
+    {
+      "id": "N08",
+      "label": "N08 Cycleway",
+      "offshore": [
+        151.301713,
+        -33.726197
+      ],
+      "onshore": [
+        151.299681,
+        -33.726812
+      ],
+      "rateMPerYear": -0.55,
+      "seMPerYear": 0.08,
+      "sigPValue": 0.002,
+      "validObs": 33,
+      "validSpan": 32,
+      "certainty": "good",
+      "source": "Sample rates for this repository. Not DEA values."
+    },
+    {
+      "id": "N09",
+      "label": "N09 South access",
+      "offshore": [
+        151.302601,
+        -33.728225
+      ],
+      "onshore": [
+        151.300569,
+        -33.728841
+      ],
+      "rateMPerYear": -0.38,
+      "seMPerYear": 0.06,
+      "sigPValue": 0.02,
+      "validObs": 30,
+      "validSpan": 33,
+      "certainty": "good",
+      "source": "Sample rates for this repository. Not DEA values."
+    },
+    {
+      "id": "N10",
+      "label": "N10 Lagoon mouth",
+      "offshore": [
+        151.303489,
+        -33.730254
+      ],
+      "onshore": [
+        151.301456,
+        -33.730869
+      ],
+      "rateMPerYear": -0.25,
+      "seMPerYear": 0.05,
+      "sigPValue": 0.031,
+      "validObs": 31,
+      "validSpan": 31,
+      "certainty": "ok",
+      "source": "Sample rates for this repository. Not DEA values."
+    },
+    {
+      "id": "N11",
+      "label": "N11 Cafe strip",
+      "offshore": [
+        151.304376,
+        -33.732282
+      ],
+      "onshore": [
+        151.302344,
+        -33.732897
+      ],
+      "rateMPerYear": -0.44,
+      "seMPerYear": 0.07,
+      "sigPValue": 0.004,
+      "validObs": 32,
+      "validSpan": 32,
+      "certainty": "good",
+      "source": "Sample rates for this repository. Not DEA values."
+    },
+    {
+      "id": "N12",
+      "label": "N12 South end",
+      "offshore": [
+        151.305264,
+        -33.73431
+      ],
+      "onshore": [
+        151.303232,
+        -33.734925
+      ],
+      "rateMPerYear": -0.3,
+      "seMPerYear": 0.06,
+      "sigPValue": 0.009,
+      "validObs": 33,
+      "validSpan": 33,
+      "certainty": "good",
+      "source": "Sample rates for this repository. Not DEA values."
+    }
+  ],
+  "assets": [
+    {
+      "id": "slsc",
+      "name": "South Narrabeen Surf Life Saving Club",
+      "class": "building",
+      "position": [
+        151.298887,
+        -33.720162
+      ],
+      "replacementCostAUD": 2400000,
+      "criticality": "community",
+      "usersPerDay": 260
+    },
+    {
+      "id": "stairs-north",
+      "name": "Beach access stairs, north",
+      "class": "beach_access",
+      "position": [
+        151.29716,
+        -33.715976
+      ],
+      "replacementCostAUD": 85000,
+      "criticality": "amenity",
+      "usersPerDay": 400
+    },
+    {
+      "id": "boardwalk",
+      "name": "Dune boardwalk",
+      "class": "path",
+      "position": [
+        151.298101,
+        -33.71818
+      ],
+      "replacementCostAUD": 160000,
+      "criticality": "amenity",
+      "usersPerDay": 350,
+      "lengthM": 300
+    },
+    {
+      "id": "outfall-north",
+      "name": "Stormwater outfall, north",
+      "class": "drainage",
+      "position": [
+        151.296321,
+        -33.714086
+      ],
+      "replacementCostAUD": 350000,
+      "criticality": "lifeline"
+    },
+    {
+      "id": "ocean-street",
+      "name": "Ocean Street",
+      "class": "road",
+      "position": [
+        151.299593,
+        -33.722246
+      ],
+      "replacementCostAUD": 2600000,
+      "criticality": "lifeline",
+      "usersPerDay": 3200,
+      "lengthM": 900
+    },
+    {
+      "id": "park-parade",
+      "name": "Narrabeen Park Parade",
+      "class": "road",
+      "position": [
+        151.302316,
+        -33.728311
+      ],
+      "replacementCostAUD": 3100000,
+      "criticality": "lifeline",
+      "usersPerDay": 4100,
+      "lengthM": 900
+    },
+    {
+      "id": "cycleway",
+      "name": "Beachfront cycleway",
+      "class": "path",
+      "position": [
+        151.301581,
+        -33.726237
+      ],
+      "replacementCostAUD": 480000,
+      "criticality": "amenity",
+      "usersPerDay": 900,
+      "lengthM": 300
+    },
+    {
+      "id": "carpark-surf",
+      "name": "Surf club car park",
+      "class": "car_park",
+      "position": [
+        151.298719,
+        -33.720041
+      ],
+      "replacementCostAUD": 750000,
+      "criticality": "amenity",
+      "usersPerDay": 700
+    },
+    {
+      "id": "toilets",
+      "name": "Public toilets",
+      "class": "building",
+      "position": [
+        151.300542,
+        -33.724312
+      ],
+      "replacementCostAUD": 320000,
+      "criticality": "community",
+      "usersPerDay": 600
+    },
+    {
+      "id": "tower",
+      "name": "Lifesaving observation tower",
+      "class": "building",
+      "position": [
+        151.29903,
+        -33.72033
+      ],
+      "replacementCostAUD": 140000,
+      "criticality": "community",
+      "usersPerDay": 40
+    },
+    {
+      "id": "playground",
+      "name": "Playground",
+      "class": "other",
+      "position": [
+        151.302819,
+        -33.73017
+      ],
+      "replacementCostAUD": 180000,
+      "criticality": "amenity",
+      "usersPerDay": 220
+    },
+    {
+      "id": "cafe",
+      "name": "Beach cafe",
+      "class": "building",
+      "position": [
+        151.30397,
+        -33.732405
+      ],
+      "replacementCostAUD": 900000,
+      "criticality": "community",
+      "usersPerDay": 450
+    },
+    {
+      "id": "pool-path",
+      "name": "Ocean pool access path",
+      "class": "path",
+      "position": [
+        151.305173,
+        -33.734338
+      ],
+      "replacementCostAUD": 210000,
+      "criticality": "amenity",
+      "usersPerDay": 300,
+      "lengthM": 300
+    },
+    {
+      "id": "carpark-north",
+      "name": "North car park",
+      "class": "car_park",
+      "position": [
+        151.295395,
+        -33.712128
+      ],
+      "replacementCostAUD": 520000,
+      "criticality": "amenity",
+      "usersPerDay": 380
+    },
+    {
+      "id": "outfall-south",
+      "name": "Stormwater outfall, south",
+      "class": "drainage",
+      "position": [
+        151.303426,
+        -33.730216
+      ],
+      "replacementCostAUD": 420000,
+      "criticality": "lifeline"
+    },
+    {
+      "id": "ramp-south",
+      "name": "Beach access ramp, south",
+      "class": "beach_access",
+      "position": [
+        151.302592,
+        -33.728362
+      ],
+      "replacementCostAUD": 120000,
+      "criticality": "amenity",
+      "usersPerDay": 520
+    }
+  ]
+}
